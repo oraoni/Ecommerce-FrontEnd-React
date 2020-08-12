@@ -1,2 +1,157 @@
 # Ecommerce MERN
  Gold Selling Portal
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title> E-commerce </title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">E-commerce</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign in</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3>Shopping Categories</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Archeage</a>
+                </li>
+                <li>
+                    <a href="index.html">Tibia</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Ganker</div>
+                            <div class="product-price">$19</div>
+                            <div class="product-rating">4.9 Stars (10 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Suricat</div>
+                            <div class="product-price">$25</div>
+                            <div class="product-rating">5 Stars (499 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Panda</div>
+                            <div class="product-price">$25</div>
+                            <div class="product-rating">5 Stars (500 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Arcano</div>
+                            <div class="product-price">$9</div>
+                            <div class="product-rating">0.3 Stars (300 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Ganker</div>
+                            <div class="product-price">$19</div>
+                            <div class="product-rating">4.9 Stars (10 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Ganker</div>
+                            <div class="product-price">$19</div>
+                            <div class="product-rating">4.9 Stars (10 Reviews)</div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/goldchest1.jpg" alt="product" />
+                            <div class="product-name">
+                                <a href="product.html">
+                                    1000 Gold Stena
+                                </a>
+                            </div>
+                            <div class="product-brand">Seller: Ganker</div>
+                            <div class="product-price">$19</div>
+                            <div class="product-rating">4.9 Stars (10 Reviews)</div>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+           
+        </main>
+        <footer class="footer">
+            All rights reserved.
+        </footer>
+    </div>
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
+</body>
+</html>
