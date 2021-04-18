@@ -1,5 +1,6 @@
 export default {
     products: [{
+        _id:'1',
         name: '1000 Gold',
         image: '/images/goldchest1.jpg',
         price: 19,
@@ -8,6 +9,7 @@ export default {
         numReviews: 10
     },
     {
+        _id: '2',
         name: '1000 Gold',
         image: '/images/goldchest1.jpg',
         price: 25,
@@ -16,6 +18,7 @@ export default {
         numReviews: 23123
     },
     {
+        _id: '3',
         name: '1000 Gold',
         image: '/images/goldchest1.jpg',
         price: 27,
@@ -24,6 +27,7 @@ export default {
         numReviews: 1113
     },
     {
+        _id: '4',
         name: '1000 Gold',
         image: '/images/goldchest1.jpg',
         price: 19,
